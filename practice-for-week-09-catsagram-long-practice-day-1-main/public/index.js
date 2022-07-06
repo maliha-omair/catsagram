@@ -12,6 +12,7 @@ async function createPage() {
     const div = document.createElement("div")
     const fig = document.createElement("figure")
     const figcaption = document.createElement("figcaption")
+
     document.body.appendChild(div)
     div.appendChild(fig)
     img.setAttribute("src",url)
@@ -21,6 +22,8 @@ async function createPage() {
     fig.appendChild(figcaption)
     fig.appendChild(img)
     document.getElementById("figcaption").style.textAlign = "center"
+    document.getElementById("fig").style.display = "flex"
+    document.getElementById("fig").style.flexDirection = "column"
     document.getElementById("fig").style.alignItems = "center"
 
 }
