@@ -14,4 +14,5 @@ const initializePage = () => {
 window.onload = () => {
     initializePage();
     createMainContent();
+    
 };
