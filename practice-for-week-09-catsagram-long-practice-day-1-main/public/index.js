@@ -21,10 +21,10 @@ async function createPage() {
     fig.setAttribute("id","fig")
     fig.appendChild(figcaption)
     fig.appendChild(img)
-    document.getElementById("figcaption").style.textAlign = "center"
-    document.getElementById("fig").style.display = "flex"
-    document.getElementById("fig").style.flexDirection = "column"
-    document.getElementById("fig").style.alignItems = "center"
+    figcaption.style.textAlign = "center"
+    fig.style.display = "flex"
+    fig.style.flexDirection = "column"
+    fig.style.alignItems = "center"
 
 }
 
